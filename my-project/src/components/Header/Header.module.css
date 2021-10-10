@@ -1,0 +1,25 @@
+.Header {
+	grid-area: h;
+	background-color: whitesmoke;
+}
+.Header img {
+	width: 80px;
+	height: auto;
+}
+
+.loginBlock {
+	float: right;
+}
+
+.loginBlock a {
+	color: white;
+	text-decoration: none;
+}
+
+.loginBlock button {
+	width: 80px;
+	height: 30px;
+	border-radius: 15px;
+	color: rgba(0, 0, 253, 0.815);
+	margin: 5px;
+}

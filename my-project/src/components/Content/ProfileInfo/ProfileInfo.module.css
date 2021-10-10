@@ -1,0 +1,47 @@
+.discriptionBlock {
+  padding: 10px;
+  display: grid;
+}
+.discriptionBlock img {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+
+  margin: 10px;
+}
+.mainPhoto {
+  max-width: 300px;
+  float: left;
+  display: grid;
+  grid-area: photo;
+}
+.ProfileStatusWithHooks {
+  text-align: center;
+}
+
+.info {
+  /* padding-left: 10px; */
+
+  float: inline-start;
+  display: grid;
+  grid-area: discription;
+}
+.discriptionBlock .contact {
+  padding-left: 10px;
+}
+button {
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  color: rgba(0, 0, 253, 0.815);
+  margin: 5px;
+}
+.error {
+  color: red;
+  font-size: 16px;
+}
+.validateError {
+  color: red;
+  font-size: 20px;
+  border: red, 1px, solid;
+}

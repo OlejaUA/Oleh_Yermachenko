@@ -1,0 +1,19 @@
+.nav {
+	grid-area: n;
+	background-color: whitesmoke;
+	padding: 20px;
+	text-align: right;
+}
+
+.item a {
+	color: black;
+	text-decoration: none;
+}
+
+.item a:hover {
+	font-size: 20px;
+}
+
+.item a:focus {
+	color: blue;
+}

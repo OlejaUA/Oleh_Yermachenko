@@ -1,0 +1,13 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+	text-decoration: none;
+}
+
+.dialog a {
+	text-decoration: none;
+}
+
+.dialog:focus {
+	color: gold;
+}

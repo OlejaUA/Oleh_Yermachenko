@@ -1,0 +1,44 @@
+.userPhoto {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.users {
+  padding-left: 10px;
+  display: grid;
+  width: 100%;
+  grid-template-areas: "photo discription followButton ";
+  grid-template-columns: 2fr 8fr 2fr;
+}
+.users .followButton {
+  display: grid;
+  grid-area: followButton;
+}
+
+.users .discription {
+  display: grid;
+  grid-area: discription;
+}
+.users .photo {
+  display: grid;
+  grid-area: photo;
+}
+.discription .info {
+  padding-left: 10px;
+  position: relative;
+  top: 30%;
+  margin-top: -0.625em;
+
+  height: 100px;
+}
+.followButton button {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  color: rgba(0, 0, 253, 0.815);
+  margin: 5px;
+  position: relative;
+  top: 30%;
+}

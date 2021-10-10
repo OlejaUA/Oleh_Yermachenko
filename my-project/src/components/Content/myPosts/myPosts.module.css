@@ -1,0 +1,13 @@
+.MyPosts {
+	color: red;
+	font-size: 14px;
+
+	padding-left: 20px;
+}
+.Post {
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.button {
+	padding-bottom: 20px;
+}
